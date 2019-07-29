@@ -3,7 +3,7 @@
  */
 const request = require('request');
 
-const HUB_ENDPOINT_URL = 'https://www.example.com';
+const HUB_ENDPOINT_URL = 'https://us-central1-cloudhero-test.cloudfunctions.net/cloudFunctionChallenge_verifyCallback';
 
 /**
  * Cloud Function to be triggered by Pub/Sub and will post payload received
